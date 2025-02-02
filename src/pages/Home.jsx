@@ -12,6 +12,7 @@ import project_i2 from "../assets/images/project_i2.png";
 import project_i3 from "../assets/images/project_i3.png";
 import project_i4 from "../assets/images/project_i4.png";
 import Testimonials from "../components/Testimonials";
+import Counter from "../components/Counter";
 
 const Home = () => {
   const heroSlides = [
@@ -88,6 +89,8 @@ const Home = () => {
         prevSlide={()=>prevSlide(setCurrentSlide1, heroSlides.length)}
       />
       <AboutUs />
+      {/* Counter component */}
+      <Counter />
 
       <ProductCarousel 
         slides={products}
