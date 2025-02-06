@@ -13,8 +13,8 @@ function StatsCard({ icon, value, label }) {
   }, [value, isInView]);
 
   return (
-    <div ref={ref} className="h-48 bg-white p-6 mt-3 flex flex-col justify-end rounded-lg shadow-lg relative text-center">
-      <div className="icon-div absolute left-1/2 -top-5 md:-top-10 transform -translate-x-1/2 rounded-full p-2 md:p-3 w-16 h-16 md:w-24 md:h-24 bg-white">
+    <div ref={ref} className="h-48 bg-white p-6 mt-4 flex flex-col justify-end rounded-lg shadow-lg relative text-center">
+      <div className="icon-div absolute left-1/2 -top-7 md:-top-10 transform -translate-x-1/2 rounded-full p-2 md:p-3 w-28 h-28 md:w-32 md:h-32 bg-white">
         <div className="w-full h-full p-3 md:p-5 rounded-full mx-auto mb-4 border-2 border-dashed border-[#ED5E24]">
           <img src={icon} />
         </div>

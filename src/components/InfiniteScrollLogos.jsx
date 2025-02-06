@@ -20,7 +20,7 @@ const InfiniteScrollLogos = () => {
             key={index}
             src={logo}
             alt={`Logo ${index}`}
-            className="w-20 mx-6"
+            className="w-36 mx-6"
           />
         ))}
       </div>

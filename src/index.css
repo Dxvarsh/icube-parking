@@ -60,3 +60,24 @@
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
 }
+
+::-webkit-scrollbar {
+  z-index: 99;
+  width: 8px; /* For vertical scrollbar */
+  height: 8px; /* For horizontal scrollbar */
+  mix-blend-mode: multiply;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ed5e24;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d94c1a;
+}

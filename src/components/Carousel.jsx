@@ -8,7 +8,7 @@ const Carousel = ({
   setCurrentSlide,
 }) => {
   return (
-    <div className="relative w-full transition-all duration-500 h-[28rem]">
+    <div className="relative w-full transition-all -mt-12 md:mt-0 duration-500 h-[28rem]">
       <div className="bg-black/30 absolute right-0 left-0 top-0 bottom-0"></div>
       <div className="overflow-hidden rounded-lg">
         <img

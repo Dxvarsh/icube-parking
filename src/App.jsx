@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="pt-3 poppins-regular h-screen w-screen overflow-y-auto overflow-x-hidden">
+    <div className="pt-3 lg:pt-7 poppins-regular h-screen w-screen overflow-y-auto overflow-x-hidden">
       <Header />
       <Home />
       <Footer />
