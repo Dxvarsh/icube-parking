@@ -11,7 +11,7 @@ import Navbar from './Navbar';
 export default function Header() {
   
   return (
-    <div className="fixed z-50 top-0 left-0 right-0">
+    <div className="sticky z-50 top-0 left-0 right-0">
       {/* Top Bar */}
       <div className="hidden md:flex open-sans text-white text-xs md:text-sm font-semibold bg-[#ED5E24] flex-col md:flex-row justify-between">
         <div className="flex w-full md:w-fit bg-[#767576] p-4 pr-10 clip-custom-left items-center space-x-4">

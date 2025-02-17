@@ -114,7 +114,7 @@ const Home = () => {
   };
 
   return (
-    <div className="mt-36 w-full min-h-screen">
+    <div className="w-full min-h-screen">
       <Carousel
         slides={heroSlides}
         currentSlide={currentSlide1}

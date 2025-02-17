@@ -3,16 +3,16 @@ import About_img from "../assets/images/About_img.png";
 
 const AboutUs = () => {
   return (
-    <div className="container mx-auto px-4 py-12 flex flex-col-reverse lg:flex-row w-full min-h-[90vh] max-w-7xl">
+    <div className="container mx-auto px-4 py-12 flex flex-col-reverse lg:flex-row w-full min-h-[60vh] max-w-7xl">
       {/* Left side image and video */}
-      <div className="w-full md:w-[60%] relative flex flex-col sm:flex-row min-h-[70vh] max-h-[80vh]">
+      <div className="w-full md:w-[60%] h-fit relative flex flex-col sm:flex-row">
         <img
-          className="object-cover rounded-sm md:w-[80%] sm:w-96 h-52 sm:h-64 md:h-80 lg:min-h-[70%] lg:max-h-[80%] shadow-2xl"
+          className="object-cover rounded-sm md:w-[80%] sm:w-96 h-52 sm:h-64 md:h-80 lg:max-w-[80%] lg:max-h-[90%] shadow-2xl"
           src={About_img}
           alt="About Us Hero Image"
         />
         
-        <div className="mt-5 w-full h-64 md:h-80 lg:h-52 lg:w-72 lg:max-w-72 lg:absolute lg:bottom-12 lg:right-10 border border-[#ED5E24] rounded-br-4xl rounded-tl-4xl overflow-hidden shadow-2xl bg-[#000000]/50">
+        <div className="mt-5 w-full h-64 md:h-80 lg:h-52 lg:w-72 lg:max-w-80 lg:absolute lg:-bottom-[15%] lg:right-[10%] border border-[#ED5E24] rounded-br-4xl rounded-tl-4xl overflow-hidden shadow-2xl bg-[#000000]/50">
           <iframe
             className="w-full h-full"
             src="https://www.youtube.com/embed/abiYRttaxpo?si=uPqvKbupU0QKppE9"
