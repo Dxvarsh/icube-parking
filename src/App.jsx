@@ -7,6 +7,9 @@ import { Routes, Route } from "react-router-dom";
 import TwoPostTwostackP from "./pages/TwoPostTwostackP";
 import TwoPostThreeStackP from "./pages/TwoPostThreeStackP";
 import FourPostThreeStackP from "./pages/FourPostThreeStackP";
+import MoreProjects from "./pages/MoreProjects";
+import Blogs from "./pages/Blogs";
+import Testimonials from "./pages/Testimonials";
 
 /* bg-[#ED5E24] */
 
@@ -32,6 +35,18 @@ const App = () => {
         <Route
           path="/icube-parking/products/stack-parking/four-post-three-stack-parking"
           element={<FourPostThreeStackP />}
+        />
+        <Route
+          path="/icube-parking/blogs"
+          element={<Blogs />}
+        />
+        <Route
+          path="/icube-parking/client-insights/our-projects"
+          element={<MoreProjects />}
+        />
+        <Route
+          path="/icube-parking/client-insights/testimonials"
+          element={<Testimonials />}
         />
       </Routes>
       <Footer />

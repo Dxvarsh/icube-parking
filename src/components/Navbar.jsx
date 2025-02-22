@@ -145,7 +145,7 @@ function Navbar() {
 
               {/* Other Menu Items */}
               <li>
-                <Link to='/icube-parking/products/stack-parking' onClick={() => setOpenDropdown(null)} className="hover:text-[#ED5E24]">
+                <Link to='/icube-parking/blogs' onClick={() => setOpenDropdown(null)} className="hover:text-[#ED5E24]">
                   Blogs
                 </Link>
               </li>
@@ -212,11 +212,11 @@ function Navbar() {
                 {openDropdown === "ci" && (
                   <ul className="absolute bg-[#F8F9FB] shadow-lg text-[#6F6F6F] mt-12 min-w-50 z-auto">
                     <li className="p-2 hover:bg-gray-100 cursor-pointer">
-                      <Link to='/icube-parking/products/stack-parking' onClick={() => setOpenDropdown(null)} >Projects</Link>
+                      <Link to='/icube-parking/client-insights/our-projects' onClick={() => setOpenDropdown(null)} >Projects</Link>
                     </li>
 
                     <li className="p-2 hover:bg-gray-100 cursor-pointer">
-                      <Link to='/icube-parking/products/stack-parking' onClick={() => setOpenDropdown(null)} >Testimonial</Link>
+                      <Link to='/icube-parking/client-insights/testimonials' onClick={() => setOpenDropdown(null)} >Testimonial</Link>
                     </li>
 
                     <li className="p-2 hover:bg-gray-100 cursor-pointer">
